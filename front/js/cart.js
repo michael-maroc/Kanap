@@ -221,7 +221,7 @@ document.querySelector(".cart__order__form").addEventListener("submit", function
 		};
 
 		// ----- Création de la requête "POST" à l'api, traduction au formation json puis enregistrement de la réponse dans le localStorage. Un redirection vers la page "confirmation" est effectuée si les promesses sont réussies
-		fetch("https://kanap-api-04a6.onrender.com/api/products/order", options)
+		fetch("https://kanap-api-8esl.onrender.com/api/products/order", options)
 			.then(response => response.json())
 			.then(data => {
 				localStorage.setItem("orderId", data.orderId);

@@ -9,7 +9,7 @@ const items = document.getElementById("items");
 
 // ----- Envoi d'une requete de type 'GET' à l'api
 function getProducts() {
-	fetch("https://kanap-api-04a6.onrender.com/api/products")
+	fetch("https://kanap-api-8esl.onrender.com/api/products")
 		.then(response => response.json())
 		.then(data => {
 			for (let index of data) {

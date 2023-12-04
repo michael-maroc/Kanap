@@ -37,7 +37,7 @@ function addToCart(product) {
 
 // Utilisation de l'url pour la requête à l'API puis affichage des données en conséquence
 async function fetchItem() {
-  await fetch(`https://kanap-api-04a6.onrender.com/api/products/${productId}`)
+  await fetch(`https://kanap-api-8esl.onrender.com/api/products/${productId}`)
     .then(res => res.json())
     .then(productItem => {
 
